@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L’Art KM Cake | My Creations</title>
+  <meta name="description" content="A selection of handcrafted L’Art KM Cake creations.">
+  <link rel="canonical" href="https://lartkmcake.co.uk/creations/">
+  <link rel="icon" href="../images/logo/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .creations-page { background: var(--ivory); min-height: 100vh; }
+    .creations-page-inner { padding-top: 7rem; padding-bottom: 5rem; }
+    .creations-page-head { max-width: 48rem; margin: 0 auto 3rem; text-align: center; }
+    .creations-page-head h1 { font-size: clamp(2rem, 4vw, 3.5rem); color: var(--choco); line-height: 1.15; margin: 0; }
+    .creations-page-intro { max-width: 38rem; margin: 1.25rem auto 0; color: var(--text-soft); line-height: 1.7; }
+    .creation-masonry { column-count: 3; column-gap: 1rem; }
+    .creation-card { break-inside: avoid; margin: 0 0 1rem; background: transparent; border-radius: 5px; overflow: hidden; position: relative; }
+    .creation-card img { display:block; width:100%; height:auto; object-fit:contain; border-radius:5px; }
+    .creation-card figcaption { display:none; }
+    .creation-card.is-placeholder { min-height: 220px; display:flex; align-items:center; justify-content:center; border:1px dashed rgba(138,58,74,.28); background: rgba(138,58,74,.035); }
+    .creation-card.is-placeholder img { display:none; }
+    .creation-card.is-placeholder figcaption { display:block; color: var(--wine); font-size:11px; letter-spacing:.18em; text-transform:uppercase; }
+    .creations-page-footer { margin-top: 3.5rem; text-align:center; }
+    .creations-page-footer p { color:var(--text-soft); margin-bottom:1rem; }
+    @media (max-width: 767px) {
+      .creations-page-inner { padding-top: 4.5rem; padding-bottom: 3.5rem; }
+      .creation-masonry { column-count: 2; column-gap: .65rem; }
+      .creation-card { margin-bottom: .65rem; }
+    }
+    @media (max-width: 420px) {
+      .creation-masonry { column-count: 1; column-gap: 0; }
+      .creation-card { margin-bottom: .8rem; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main"><span class="pt">Saltar para o conteúdo</span><span class="en">Skip to content</span></a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand serif" href="../#inicio">L’Art KM Cake</a>
+      <div class="header-right">
+        <nav id="site-nav" class="nav" aria-label="Main / Principal">
+          <a href="../#inicio" class="nav-link"><span class="pt">Início</span><span class="en">Home</span></a>
+          <a href="../#sobre" class="nav-link"><span class="pt">Sobre</span><span class="en">About</span></a>
+          <a href="../#criacoes" class="nav-link"><span class="pt">Criações</span><span class="en">Creations</span></a>
+          <a href="../#servicos" class="nav-link"><span class="pt">Serviços</span><span class="en">Services</span></a>
+          <a href="../#contato" class="nav-link"><span class="pt">Contato</span><span class="en">Contact</span></a>
+          <a href="../#policies" class="nav-link"><span class="pt">Políticas</span><span class="en">Policies</span></a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="Idioma / Language">
+          <button type="button" class="lang-btn" data-lang-set="pt" aria-pressed="false">PT</button>
+          <button type="button" class="lang-btn" data-lang-set="en" aria-pressed="true">EN</button>
+        </div>
+        <button type="button" class="menu-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Menu">
+          <span class="menu-bar"></span><span class="menu-bar"></span><span class="menu-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="creations-page">
+    <div class="container creations-page-inner">
+      <header class="creations-page-head">
+        <p class="label"><span class="pt">MINHAS CRIAÇÕES</span><span class="en">MY CREATIONS</span></p>
+        <h1 class="serif"><span class="pt">Cada criação conta uma história.</span><span class="en">Every creation tells a story.</span></h1>
+        <div class="divider" aria-hidden="true"><span></span></div>
+        <p class="creations-page-intro">
+          <span class="pt">Uma seleção de criações artesanais da L’Art KM Cake, feitas com cuidado para momentos que merecem ser lembrados.</span>
+          <span class="en">A selection of handcrafted L’Art KM Cake creations, made with care for moments worth remembering.</span>
+        </p>
+      </header>
+
+      <div class="creation-masonry">
+          <figure class="creation-card">
+            <img width="900" height="1600" src="../images/gallery/creation-01.jpg" loading="lazy" alt="L’Art KM Cake creation 1 / Criação 1 da L’Art KM Cake">
+            <figcaption>Criação 1</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-02.jpg" loading="lazy" alt="L’Art KM Cake creation 2 / Criação 2 da L’Art KM Cake">
+            <figcaption>Criação 2</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1170" height="2080" src="../images/gallery/creation-03.jpg" loading="lazy" alt="L’Art KM Cake creation 3 / Criação 3 da L’Art KM Cake">
+            <figcaption>Criação 3</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1200" height="1600" src="../images/gallery/creation-04.jpg" loading="lazy" alt="L’Art KM Cake creation 4 / Criação 4 da L’Art KM Cake">
+            <figcaption>Criação 4</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1170" height="2080" src="../images/gallery/creation-05.jpg" loading="lazy" alt="L’Art KM Cake creation 5 / Criação 5 da L’Art KM Cake">
+            <figcaption>Criação 5</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-06.jpg" loading="lazy" alt="L’Art KM Cake creation 6 / Criação 6 da L’Art KM Cake">
+            <figcaption>Criação 6</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="900" height="1600" src="../images/gallery/creation-07.jpg" loading="lazy" alt="L’Art KM Cake creation 7 / Criação 7 da L’Art KM Cake">
+            <figcaption>Criação 7</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-08.jpg" loading="lazy" alt="L’Art KM Cake creation 8 / Criação 8 da L’Art KM Cake">
+            <figcaption>Criação 8</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-09.jpg" loading="lazy" alt="L’Art KM Cake creation 9 / Criação 9 da L’Art KM Cake">
+            <figcaption>Criação 9</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="900" height="1600" src="../images/gallery/creation-10.jpg" loading="lazy" alt="L’Art KM Cake creation 10 / Criação 10 da L’Art KM Cake">
+            <figcaption>Criação 10</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-11.jpg" loading="lazy" alt="L’Art KM Cake creation 11 / Criação 11 da L’Art KM Cake">
+            <figcaption>Criação 11</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-12.jpg" loading="lazy" alt="L’Art KM Cake creation 12 / Criação 12 da L’Art KM Cake">
+            <figcaption>Criação 12</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1080" height="776" src="../images/gallery/creation-13.jpg" loading="lazy" alt="L’Art KM Cake creation 13 / Criação 13 da L’Art KM Cake">
+            <figcaption>Criação 13</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-14.jpg" loading="lazy" alt="L’Art KM Cake creation 14 / Criação 14 da L’Art KM Cake">
+            <figcaption>Criação 14</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-15.jpg" loading="lazy" alt="L’Art KM Cake creation 15 / Criação 15 da L’Art KM Cake">
+            <figcaption>Criação 15</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-16.jpg" loading="lazy" alt="L’Art KM Cake creation 16 / Criação 16 da L’Art KM Cake">
+            <figcaption>Criação 16</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1222" src="../images/gallery/creation-17.jpg" loading="lazy" alt="L’Art KM Cake creation 17 / Criação 17 da L’Art KM Cake">
+            <figcaption>Criação 17</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1086" height="1448" src="../images/gallery/creation-18.jpg" loading="lazy" alt="L’Art KM Cake creation 18 / Criação 18 da L’Art KM Cake">
+            <figcaption>Criação 18</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-19.jpg" loading="lazy" alt="L’Art KM Cake creation 19 / Criação 19 da L’Art KM Cake">
+            <figcaption>Criação 19</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1200" height="1600" src="../images/gallery/creation-20.jpg" loading="lazy" alt="L’Art KM Cake creation 20 / Criação 20 da L’Art KM Cake">
+            <figcaption>Criação 20</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-21.jpg" loading="lazy" alt="L’Art KM Cake creation 21 / Criação 21 da L’Art KM Cake">
+            <figcaption>Criação 21</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-22.jpg" loading="lazy" alt="L’Art KM Cake creation 22 / Criação 22 da L’Art KM Cake">
+            <figcaption>Criação 22</figcaption>
+          </figure>
+          <figure class="creation-card">
+            <img width="1320" height="1760" src="../images/gallery/creation-23.jpg" loading="lazy" alt="L’Art KM Cake creation 23 / Criação 23 da L’Art KM Cake">
+            <figcaption>Criação 23</figcaption>
+          </figure>
+      </div>
+
+      <div class="creations-page-footer">
+        <p><span class="pt">Quer criar a sua própria história?</span><span class="en">Ready to create your own story?</span></p>
+        <a class="btn btn-primary" href="https://wa.me/message/HSHELMUKQOTOE1" target="_blank" rel="noopener noreferrer">
+          <span class="pt">Encomendar</span><span class="en">Order now</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="label">L’Art KM Cake — <span class="pt">Elegância em cada detalhe. Memórias em cada criação.</span><span class="en">Elegance in every detail. Memories in every creation.</span></p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.creation-card img').forEach(function (img) {
+        img.addEventListener('error', function () {
+          var card = img.closest('.creation-card');
+          if (card) card.classList.add('is-placeholder');
+        });
+        if (img.complete && img.naturalWidth === 0) {
+          var card = img.closest('.creation-card');
+          if (card) card.classList.add('is-placeholder');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
