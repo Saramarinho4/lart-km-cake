@@ -761,3 +761,19 @@ body.policy-language-pt .policy-language-switch .policy-lang-btn[data-policy-lan
   .header-right { gap: .75rem; }
   .nav { gap: .6rem; }
 }
+.astera-credit {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+  color: #C8A96B;
+}
+
+.astera-credit a {
+  color: #C8A96B;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.astera-credit a:hover {
+  opacity: 0.7;
+}
